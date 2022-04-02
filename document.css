@@ -2,7 +2,7 @@
   border: 0;
   cursor: pointer;
   display: inline-block;
-  width: 95%;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 0px;
   padding: 10px 20px;
@@ -23,7 +23,7 @@
   border: 0;
   cursor: pointer;
   display: inline-block;
-  width: 95%;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 0px;
   padding: 10px 20px;
@@ -48,13 +48,13 @@
   margin-top: 10px;
   margin-bottom: 0px;
   height: 40px;
-  width: 95%;
+  width: 100%;
 }
 
 .dwolla-document-label {
   text-align: left;
   display: inline-block;
-  width: 95%;
+  width: 100%;
 }
 
 .dwolla-document-chooser {
@@ -92,7 +92,7 @@
 
 .dwolla-document-type select {
   border: 1px solid #c9d3e0;
-  width: 95%;
+  width: 100%;
   cursor: pointer;
   display: inline-block;
   margin-top: 5px;
@@ -118,7 +118,7 @@
   text-align: center;
   padding: 5px;
   border: 1px solid #c9d3e0;
-  width: 95%;
+  width: 100%;
   cursor: pointer;
   display: inline-block;
   margin-top: 25px;
