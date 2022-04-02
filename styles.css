@@ -62,6 +62,7 @@
 .dwolla-width-1 input[type="text"] {
   padding: 10px 0px 10px 15px;
   width: 455px;
+  background-color: red;
 }
 
 .dwolla-width-2 {
