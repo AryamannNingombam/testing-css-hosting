@@ -2,7 +2,7 @@
   border: 0;
   cursor: pointer;
   display: inline-block;
-  width: 120px;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 0px;
   padding: 10px 20px;
@@ -22,7 +22,7 @@
   border: 0;
   cursor: pointer;
   display: inline-block;
-  width: 470px;
+  width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 10px 20px;
@@ -61,26 +61,26 @@
 
 .dwolla-width-1 input[type="text"] {
   padding: 10px 0px 10px 15px;
-  width: 455px;
+  width: 100%;
   background-color: red;
 }
 
 .dwolla-width-2 {
-  width: 228px;
+  width: 100%;
 }
 
 .dwolla-width-2 input[type="text"] {
   padding: 10px 0px 10px 15px;
-  width: 213px;
+  width: 100%;
 }
 
 .dwolla-width-3 {
-  width: 147px;
+  width: 100%;
 }
 
 .dwolla-width-3 input[type="text"] {
   padding: 10px 0px 10px 15px;
-  width: 133px;
+  width: 100%;
 }
 
 .margin-bump {
