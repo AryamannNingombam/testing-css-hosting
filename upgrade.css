@@ -74,12 +74,12 @@
 }
 
 .dwolla-width-3 {
-  width: 100%;
+  width: 30%;
 }
 
 .dwolla-width-3 input[type="text"] {
   padding: 10px 0px 10px 15px;
-  width: 100%;
+  width: 30%;
 }
 
 .margin-bump {
