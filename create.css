@@ -66,13 +66,13 @@
 }
 
 .dwolla-width-2 {
-  width: 45%;
+  width: 100%;
 }
 
 .dwolla-width-2 input[type="text"] {
   padding: 20px 15px;
   margin: 15px 0;
-  width: 95%;
+  width: 90%;
 }
 
 /* .dwolla-input-container */
