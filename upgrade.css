@@ -4,7 +4,7 @@
   border: 0;
   cursor: pointer;
   display: inline-block;
-  width: 120px;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 0px;
   padding: 10px 20px;
@@ -62,8 +62,9 @@
 }
 
 .dwolla-width-1 input[type="text"] {
-  padding: 10px 0px 10px 15px;
-  width: 100%;
+  padding: 20px 15px;
+  margin: 15px 0;
+  width: 90%;
 }
 
 .dwolla-width-2 {
@@ -71,18 +72,20 @@
 }
 
 .dwolla-width-2 input[type="text"] {
-  padding: 10px 0px 10px 15px;
-  width: 100%;
+  padding: 20px 15px;
+  margin: 15px 0;
+  width: 90%;
 }
 
+/* .dwolla-input-container */
+
 .dwolla-width-3 {
-  padding: 10px 0px 10px 15px;
-  width: 100%;
+  width: 30%;
 }
 
 .dwolla-width-3 input[type="text"] {
   padding: 10px 0px 10px 15px;
-  width: 100%;
+  width: 30%;
 }
 
 .margin-bump {
@@ -104,7 +107,7 @@
 
 #dwolla-success {
   background-color: #ddf0e0;
-  color: #58b467;
+  color: #354153;
   text-align: center;
   padding: 10px;
   border-radius: 3px;
@@ -114,7 +117,7 @@
 }
 
 #dwolla-info {
-  background: rgba(54, 136, 207, 0.15);
+  background-color: #ddf0e0;
   color: #354153;
   text-align: center;
   padding: 10px;
@@ -138,7 +141,8 @@
 }
 
 .dwolla-customer-tos {
-  width: 100%;
+  width: 90%;
+  margin: auto;
   height: 80px;
   font-family: "Manrope", sans-serif;
   font-style: normal;
@@ -161,6 +165,15 @@
   display: inline;
   float: left;
   margin-left: 10px;
+  text-align: start;
+}
+
+.dwolla-loading {
+  background-color: #5e4e76;
+  position: relative;
+  animation-name: loading;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 .dwolla-input-container {
@@ -179,14 +192,8 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-}
-
-.dwolla-loading {
-  background-color: #5e4e76;
-  position: relative;
-  animation-name: loading;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  width: 90%;
+  margin: auto;
 }
 
 @keyframes loading {
@@ -199,4 +206,16 @@
   100% {
     background-color: #5e4e76;
   }
+}
+
+.hide-class {
+  display: none;
+}
+
+.dwolla-input-container .dwolla-width-1 {
+  width: 90%;
+}
+
+.orange-border {
+  padding: 0 !important;
 }
