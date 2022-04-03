@@ -61,6 +61,7 @@
 
 .dwolla-width-1 input[type="text"] {
   padding: 20px 15px;
+  margin: 15px 0;
   width: 90%;
 }
 
@@ -69,7 +70,8 @@
 }
 
 .dwolla-width-2 input[type="text"] {
-  padding: 10px 0px 10px 15px;
+  padding: 20px 15px;
+  margin: 15px 0;
   width: 95%;
 }
 
