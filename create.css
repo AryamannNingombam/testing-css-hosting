@@ -61,7 +61,7 @@
 
 .dwolla-width-1 input[type="text"] {
   padding: 10px 0px 10px 15px;
-  width: 100%;
+  width: 90%;
 }
 
 .dwolla-width-2 {
@@ -200,4 +200,8 @@
 
 .hide-class {
   display: none;
+}
+
+.dwolla-input-container .dwolla-width-1 {
+  width: 90%;
 }
