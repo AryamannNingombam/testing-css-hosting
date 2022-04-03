@@ -205,3 +205,7 @@
 .dwolla-input-container .dwolla-width-1 {
   width: 90%;
 }
+
+.orange-border {
+  padding: 0 !important;
+}
