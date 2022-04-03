@@ -8,10 +8,10 @@
   font-size: 14px;
   line-height: 20px;
   color: #354153;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .container-sm {
