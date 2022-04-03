@@ -137,7 +137,8 @@
 }
 
 .dwolla-customer-tos {
-  width: 100%;
+  width: 90%;
+  margin: auto;
   height: 80px;
   font-family: Roboto;
   font-style: normal;
