@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Manrope&display=swap");
+
 .dwolla-submit input[type="submit"] {
   border: 0;
   cursor: pointer;
@@ -7,7 +9,7 @@
   margin-bottom: 0px;
   padding: 10px 20px;
   border-radius: 3px;
-  font-family: Roboto;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -27,7 +29,7 @@
   margin-bottom: 0px;
   padding: 10px 20px;
   border-radius: 3px;
-  font-family: Roboto;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -44,7 +46,7 @@
   display: inline-block;
   transition: box-shadow 0.5s, background-color 0.5s, border 0.5s;
   border-radius: 3px;
-  font-family: Roboto;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -138,7 +140,7 @@
 .dwolla-customer-tos {
   width: 100%;
   height: 80px;
-  font-family: Roboto;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -172,7 +174,7 @@
 .dwolla-input-container label {
   text-align: left;
   display: block;
-  font-family: Roboto;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
