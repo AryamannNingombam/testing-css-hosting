@@ -1,38 +1,113 @@
-.dwolla-balance {
-  width: 100%;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Manrope&display=swap");
 
-.dwolla-balance-display {
-  color: #354153;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 48px;
-  line-height: 20px;
-  margin-top: 30px;
+.dwolla-submit input[type="submit"] {
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
   width: 100%;
-  border-radius: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.dwolla-balance-header {
-  color: #354153;
-  font-family: Roboto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-family: "Manrope", sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #202033;
+}
+
+.dwolla-customer-submit input[type="submit"] {
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
   width: 100%;
-  border-radius: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #202033;
+}
+
+.dwolla-customer-input {
+  border: 1px solid #c9d3e0;
+  cursor: pointer;
+  display: inline-block;
+  transition: box-shadow 0.5s, background-color 0.5s, border 0.5s;
+  border-radius: 3px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  text-decoration: none;
+  background-color: #fff;
+  color: #5e4e76;
+}
+
+.dwolla-width-1 {
+  width: 100%;
+}
+
+.dwolla-width-1 input[type="text"] {
+  padding: 20px 15px;
+  margin: 15px 0;
+  width: 90%;
+}
+
+.dwolla-width-2 {
+  width: 100%;
+}
+
+.dwolla-width-2 input[type="text"] {
+  padding: 20px 15px;
+  margin: 15px 0;
+  width: 90%;
+}
+
+/* .dwolla-input-container */
+
+.dwolla-width-3 {
+  width: 30%;
+}
+
+.dwolla-width-3 input[type="text"] {
+  padding: 10px 0px 10px 15px;
+  width: 30%;
+}
+
+.margin-bump {
+  margin-right: 10px !important;
+}
+
+::placeholder {
+  color: #52627b;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #52627b;
+}
+
+::-ms-input-placeholder {
+  color: #52627b;
 }
 
 #dwolla-success {
   background-color: #ddf0e0;
-  color: #58b467;
+  color: #354153;
   text-align: center;
   padding: 10px;
   border-radius: 3px;
@@ -63,4 +138,84 @@
 
 .dwolla-link {
   color: #1d6cd1;
+}
+
+.dwolla-customer-tos {
+  width: 90%;
+  margin: auto;
+  height: 80px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.dwolla-customer-checkbox {
+  width: 5%;
+  height: 80px;
+  display: inline;
+  float: left;
+}
+
+.dwolla-customer-text {
+  width: 91%;
+  height: 80px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  text-align: start;
+}
+
+.dwolla-loading {
+  background-color: #5e4e76;
+  position: relative;
+  animation-name: loading;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.dwolla-input-container {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 0px 0px;
+}
+
+.dwolla-input-container label {
+  text-align: left;
+  display: block;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  width: 90%;
+  margin: auto;
+}
+
+@keyframes loading {
+  0% {
+    background-color: #5e4e76;
+  }
+  50% {
+    background-color: #8393aa;
+  }
+  100% {
+    background-color: #5e4e76;
+  }
+}
+
+.hide-class {
+  display: none;
+}
+
+.dwolla-input-container .dwolla-width-1 {
+  width: 90%;
+}
+
+.orange-border {
+  padding: 0 !important;
 }
