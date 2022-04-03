@@ -2,7 +2,7 @@
   border: 0;
   cursor: pointer;
   display: inline-block;
-  width: 120px;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 0px;
   padding: 10px 20px;
@@ -22,7 +22,7 @@
   border: 0;
   cursor: pointer;
   display: inline-block;
-  width: 470px;
+  width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 10px 20px;
